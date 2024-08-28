@@ -3,6 +3,7 @@
 import requests
 
 def number_of_subscribers(subreddit):
+    """Return the total number of subscribers on a given subreddit."""
     # Set a custom User-Agent to avoid being blocked by Reddit
     headers = {'User-Agent': 'Mozilla/5.0'}
     
